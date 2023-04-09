@@ -4,17 +4,14 @@
       <header>
         <div class="container-hashtag">@BrugoAmorim</div>
         <div class="container-links">
-          <a href="#"> 
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg" height="15em"/>
-            Twitter
+          <a href="https://twitter.com/BrugoAmorim" target="_blank"> 
+            <img src="./assets/twitter.svg" alt="logo twitter" height="40em"/>
           </a>
-          <a href="#">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="15em"/>
-            Github
+          <a href="https://github.com/BrugoAmorim" target="_blank">
+            <img src="./assets/github.svg" alt="logo github" height="40em"/>
           </a>
-          <a href="#">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="15em"/>
-            Linkedin
+          <a href="https://www.linkedin.com/in/bruno-gomes-a9b769244/" target="_blank">
+            <img src="./assets/linkedin.svg" alt="logo linkedin" height="40em"/>
           </a>
         </div>
       </header>
@@ -50,7 +47,7 @@
             <div class="projects">
               <div class="work">
                 <div class="img-home">
-                  <h1>Em breve</h1>
+                  <img src="/image/home-agenda-pessoal.png" height="100%" width="100%" alt="imagem home agenda pessoal">
                 </div>
                 <div class="info-project">
                   <div class="title-work">
@@ -60,14 +57,13 @@
                     <p>Aplicação web que ajuda os usuários a organizar a sua rotina, fazendo anotações, gerenciando contatos e criando listas de afazeres.</p>
                   </div>
                   <div class="link">
-                    <button class="btn btn-primary" disabled>agendapessoa.com/</button>
-                    <button class="btn btn-dark">Github</button>
+                    <a href="https://github.com/BrugoAmorim/Agenda-Pessoal" target="_blank" class="btn btn-dark">Github</a>
                   </div>
                 </div>
               </div>
               <div class="work-2">
                 <div class="img-home">
-                  <h1>Em breve</h1>
+                  <img src="/image/home-test-drive.png" height="100%" width="100%" alt="imagem home agenda pessoal">
                 </div>
                 <div class="info-project">
                   <div class="title-work">
@@ -77,8 +73,7 @@
                     <p>Sistema web de uma concessionária que agenda test drive para os clientes experimentarem os automóveis da loja.</p>
                   </div>
                   <div class="link">
-                    <button class="btn btn-primary" disabled>testdrive.com/</button>
-                    <button class="btn btn-dark">Github</button>
+                    <a href="https://github.com/BrugoAmorim/Sistema-Test-Drive" target="_blank" class="btn btn-dark">Github</a>
                   </div>
                 </div>
               </div>
@@ -134,7 +129,6 @@
 
     data() {
       return {
-        name: 'Bruno'
       }
     }
   }
